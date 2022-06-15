@@ -1,0 +1,9 @@
+@import "font.css";
+
+:root {
+
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
