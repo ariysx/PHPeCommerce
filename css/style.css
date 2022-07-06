@@ -7,3 +7,7 @@
 .dropdown-toggle::after {
     display: none !important;
 }
+
+.nav-link {
+    color: black;
+}

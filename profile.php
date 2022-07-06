@@ -1,9 +1,11 @@
 <?php
+error_reporting(0);
 include "config.php";
+include "core/core.php";
 session_start();
 
 if(!isset($_SESSION['username'])){
-
+    toPage("index.php");
 }
 ?>
 
@@ -23,8 +25,7 @@ if(!isset($_SESSION['username'])){
 <body class="poppins">
 <?php
 include "module/navbar.php";
-include "module/carousel.php";
-include "module/browsecategory.php";
+include "module/profile.php";
 ?>
 
 </body>

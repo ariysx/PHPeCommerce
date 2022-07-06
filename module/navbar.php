@@ -20,7 +20,7 @@
                             if(isset($_SESSION['username'])){
                                 echo '
                             <li><p class="text-center"><small>Logged in as '.$_SESSION['username'].'</small></p></li>
-                            <li><a class="dropdown-item" href="#">My Account</a></li>
+                            <li><a class="dropdown-item" href="profile.php">My Account</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="core/form/logout.php"><i class="las la-sign-out-alt"></i> Logout</a></li>';
                             } else {
